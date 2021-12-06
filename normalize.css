@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: #99dbff;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn {
+  background-color: #861d86;
+  color: white;
+  width: 75px;
+  height: 30px;
+}
+#task {
+  width: 200px;
+  height: 30px;
+}
+
+label {
+  font-size: 25px;
+  color: white;
+}
+
+#body-box {
+  background-color: #228cdb;
+  width: 25em;
+  height: 15em;
+  font-size: 35px;
+  padding-top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+li {
+  text-align: left;
+  font-size: 20px;
+  height: 30px;
+  background-color: #b6d6cc;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 25px;
+  padding-top: 3px;
+}
+
+.task_table {
+  width: auto;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style-type: none;
+}
+
+.close_button {
+  font-size: 15px;
+  background-color: red;
+  color: white;
+  margin-right: 50px;
+  float: right;
+  border-radius: 5px;
+}
