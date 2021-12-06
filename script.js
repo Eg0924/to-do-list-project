@@ -17,7 +17,7 @@ const tasks = document.querySelectorAll('.ul_tasks button');
     const span = document.createElement('span');
     span.textContent = inputText.value;
     
-        
+    //Fiurst comment    
     if(span.textContent === ''){
         alert("Plese enter a task");
     }else{
